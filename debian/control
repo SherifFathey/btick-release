@@ -1,0 +1,12 @@
+Source: ros-jazzy-btick
+Section: misc
+Priority: optional
+Maintainer: "Sherif Fathey" <sheriffathey@outlook.com>
+Build-Depends: debhelper (>= 9.0.0), libpugixml-dev, nlohmann-json3-dev, ros-jazzy-ament-cmake, ros-jazzy-behaviortree-cpp, ros-jazzy-rclcpp, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Homepage: https://github.com/SherifFathey/btick
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-btick
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpugixml-dev, nlohmann-json3-dev, ros-jazzy-behaviortree-cpp, ros-jazzy-rclcpp, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Description: BTick - Lightweight client library for ROS 2 BehaviorTree observation and Nav2 logging
