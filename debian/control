@@ -1,0 +1,12 @@
+Source: ros-lyrical-btick
+Section: misc
+Priority: optional
+Maintainer: "Sherif Fathey" <sheriffathey@outlook.com>
+Build-Depends: debhelper (>= 9.0.0), libpugixml-dev, nlohmann-json3-dev, ros-lyrical-ament-cmake, ros-lyrical-behaviortree-cpp, ros-lyrical-rclcpp, ros-lyrical-std-msgs, ros-lyrical-ros-workspace
+Homepage: https://github.com/SherifFathey/btick
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-btick
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpugixml-dev, nlohmann-json3-dev, ros-lyrical-behaviortree-cpp, ros-lyrical-rclcpp, ros-lyrical-std-msgs, ros-lyrical-ros-workspace
+Description: BTick - Lightweight client library for ROS 2 BehaviorTree observation and Nav2 logging
