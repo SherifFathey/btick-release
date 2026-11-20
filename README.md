@@ -1,3 +1,26 @@
+## btick (humble) - 1.0.1-1
+
+The packages in the `btick` repository were released into the `humble` distro by running `/usr/bin/bloom-release --new-track --rosdistro humble --track humble btick` on `Fri, 20 Nov 2026 15:32:00 -0000`
+
+The `btick` package was released.
+
+Version of package(s) in repository `btick`:
+
+- upstream repository: https://github.com/SherifFathey/btick.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.4`
+- catkin_pkg version: `1.1.1`
+- rosdep version: `0.27.0`
+- rosdistro version: `1.1.0`
+- vcstools version: `0.1.42`
+
+
 ## btick (lyrical) - 1.0.1-1
 
 The packages in the `btick` repository were released into the `lyrical` distro by running `/usr/bin/bloom-release --new-track --rosdistro lyrical --track lyrical btick` on `Mon, 16 Nov 2026 18:42:43 -0000`
